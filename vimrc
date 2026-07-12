@@ -55,3 +55,5 @@ endif
 set colorcolumn=80
 
 set nu
+
+set noswapfile
