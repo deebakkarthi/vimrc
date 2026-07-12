@@ -1,0 +1,4 @@
+* `vimrc`
+
+Set of sensible defaults written in pure vimscript that I can
+clone onto any machine that I SSH into.
