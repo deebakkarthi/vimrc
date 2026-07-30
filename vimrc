@@ -60,6 +60,7 @@ set noswapfile
 
 set nowrap
 
-" Automatically comment the next line when pressing RET, 'o' or 'O' on a comment
+" Automatically comment the next line when pressing RET
 set formatoptions+=r
-set formatoptions+=o
+" DON'T comment the next line when pressing 'o' or 'O'
+set formatoptions-=o
