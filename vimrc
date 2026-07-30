@@ -59,3 +59,7 @@ set nu
 set noswapfile
 
 set nowrap
+
+" Automatically comment the next line when pressing RET, 'o' or 'O' on a comment
+set formatoptions+=r
+set formatoptions+=o
