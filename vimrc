@@ -64,3 +64,8 @@ set nowrap
 set formatoptions+=r
 " DON'T comment the next line when pressing 'o' or 'O'
 set formatoptions-=o
+
+" Use '-' to open up Ex
+nnoremap - :Ex<CR>
+" Use '_' to open up Ex in a new tab
+nnoremap _ :tabnew<CR>:Ex<CR>
